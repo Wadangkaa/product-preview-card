@@ -44,54 +44,62 @@ body{
     height:100%;
     background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .right{
     width: 300px;
-    padding: 33px;
+    padding: 34px;
     background-color: #fff;
+    border-radius: 0px 8px 8px 0px;
 }
 .head{
     font-family: var(--font-family-primary);
     /* margin-bottom: 20px; */
+    font-size: 11px;
+    margin-bottom: 21px;
     letter-spacing: 6px;
     color: var(--Dark-grayish-blue);
 }
 
 .title h1{
     font-family: var(--font-family-secondary);
-    font-size: 35px;
-    line-height: 38px;
+    font-size: 33px;
+    margin: 0px;
+    line-height: 31px;
 }
 
 .description{
+    line-height: 23px;
     font-family: var(--font-family-primary);
     color: var(--Dark-grayish-blue);
     /* margin: 34px 0px; */
-    margin-bottom: 35px;
+    margin: 27px 0px;
 }
 .price_section{
     display: flex;
-    /* margin-bottom: 34px; */
-    
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    font-family: var(--font-family-secondary);
 }
 .price_now{
     flex: 1;
-    font-family: var(--font-family-secondary);
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     color: var(--Dark-cyan);
 }
 .price_then{
     display: flex;
     align-items: center;
-    margin-left: 5px;
+    margin-left: 20px;
     flex: 1;
+    font-weight: 400;
     text-decoration: line-through;
     color: var(--Dark-grayish-blue);
 }
 #add-to-cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 48px;
     border: none;
@@ -99,6 +107,10 @@ body{
     border-radius: 8px;
     color: white;
     font-family: var(--font-family-secondary);
+}
+
+.btn_icon{
+    margin: 10px;
 }
 
 
